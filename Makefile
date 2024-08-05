@@ -9,3 +9,6 @@ debug:
 
 shell:
 	poetry shell
+
+lint:
+	poetry run flake8 .
